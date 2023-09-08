@@ -280,4 +280,4 @@ def summarize():
     return jsonify(summary.choices[0].text.strip()), 200
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    app.run(port=5002)
